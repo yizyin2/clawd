@@ -1,0 +1,7 @@
+{
+  "uuid": "clawd-windows@clawd.pet",
+  "name": "Clawd Windows",
+  "description": "把当前工作区里窗口的位置告诉 Clawd 桌宠，让它能站在窗口上走。只发位置和大小，不发标题和内容。",
+  "shell-version": ["42"],
+  "version": 3
+}

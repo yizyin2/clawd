@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "python3 ~/clawd/clawd.py notify busy" }] }
+    ],
+    "PreToolUse": [
+      { "matcher": "*", "hooks": [{ "type": "command", "command": "python3 ~/clawd/clawd.py notify tool" }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "python3 ~/clawd/clawd.py notify done" }] }
+    ],
+    "Notification": [
+      { "hooks": [{ "type": "command", "command": "python3 ~/clawd/clawd.py notify attention" }] }
+    ]
+  }
+}
