@@ -120,3 +120,7 @@ python3 clawd.py notify say "今天下班早点走"
 - `python3 clawd.py --preview preview.png` 把所有动作渲染成上面那张图
 - GNOME 的 Wayland 不允许窗口自己定位和置顶，所以 Clawd 跑在 XWayland 上（脚本里自动设了 `GDK_BACKEND=x11`）。
   因为是悬浮窗，全屏看视频时它也会在最上面，可以右键让它睡觉或者退出。
+
+## 许可证
+
+[MIT](LICENSE)
